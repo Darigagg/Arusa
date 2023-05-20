@@ -1,0 +1,549 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Reckless Neue';
+    
+    
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* header{  
+
+}   */
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+   
+
+}
+.display{
+    height: 1000px;
+    position: relative;
+}
+.shopb{
+    color:  #FCFDFD;
+ 
+}
+
+.burger {
+    padding: 5px;
+}
+
+.burger span {
+    display: block;
+    width: 27px;
+    height: 2px;
+    background: white;
+    margin: 5px 0;
+}
+
+.herovid {
+    position: absolute;
+    top: 0;
+    max-height: 100vh;
+    object-fit: cover;
+    transform: scale(2);
+    z-index: -10;
+    width: 100%;
+    left: 0;
+
+}
+
+.divv {
+    overflow: hidden;
+    position: relative;
+}
+
+.hero {
+    height: 95vh;
+    overflow: hidden;
+}
+
+video {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+   
+
+}
+
+.herotitle {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 96px;
+    font-weight: 400;
+    margin-top: 250px;
+    text-align: center;
+
+    color: white;
+}
+
+.herotitle span {
+    font-style: italic;
+}
+.div2 span{
+    font-style: italic;
+}
+
+.logo {
+    margin-top: 16px;
+}
+
+.bag {
+    margin-top: 19px;
+    color: #FCFDFD;
+  
+}
+
+.bag span {
+    background: #384353;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+.herobutton {
+    background-color: #F8F4E7;
+    width: 137px;
+    height: 30px;
+    border-radius: 8px;
+    font-size: 12px;
+}
+
+.h {
+    text-align: center;
+    margin-top: 25px;
+}
+
+
+.img1 {
+    position: absolute;
+
+    top: 300px;
+ 
+    left: 40px;
+   
+  
+}
+
+.img2 {
+    position: absolute;
+   top: 600px;
+   right: 80%;
+   margin: auto;
+   z-index: -2;
+  
+}
+
+.img3{
+    position: absolute;
+    top: 150px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 220px;
+}
+
+.img4 {
+    position: absolute;
+        right: 200px;
+        top: 250px;
+  
+}
+
+.im5 {
+    position: absolute;
+    right: 100px;
+    top: 510px;
+   z-index: -1;
+}
+
+.im6 {
+    position: absolute;
+    right: 130px;
+    top: 830px;
+    
+}
+
+.div2 h2 {
+    color: #323334;
+    font-weight: 400;
+    font-size: 72px;
+    font-family: 'Reckless Neue';
+    margin-bottom: 35px;
+
+}
+
+.div2 button {
+    width: 150px;
+    height: 30px;
+    border: dotted 1px #BFBFBF;
+    border-radius: 7px;
+    margin-top: 30px;
+
+}
+
+.div2 {
+     /* margin-left: 350px;*/
+     /* margin-top: 420px;   */
+     padding-top: 420px ;
+    text-align: center;
+    
+    font-family: sans-serif;
+    position: relative;
+}
+
+.div2 p {
+    
+    font-size: 15px;
+
+}
+
+.bord1 {
+    width: 1440px;
+    height: 0px;
+    border: 1px solid #DFDEDB;
+    /* order: 0; */
+    margin-top: 450px;
+}
+
+.bord2 {
+    width: 1440px;
+    height: 0px;
+    border: 1px solid #DFDEDB;
+    /* order: 2; */
+    margin-top: 90px;
+    margin-bottom: 25px;
+    
+}
+
+.bord1 p {
+    font-size: 36px;
+    color: #323334;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.display2 {
+    display: flex;
+    margin-left: 15px;
+}
+.display3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.display2-d{
+    margin-right: 30px;
+}
+.bord3 {
+    width: 1440px;
+    height: 0px;
+    border: 1px solid #DFDEDB;
+    /* order: 0; */
+     margin-top: 25px;
+}
+.bord4 {
+    width: 1440px;
+    height: 0px;
+    border: 1px solid #DFDEDB;
+    /* order: 2; */
+     margin-top: 60px;
+  /*  margin-bottom: 20px; */
+}
+.bord3 p{
+    text-align: center;
+    margin-top: 25px;
+    color:#323334;
+}
+.background1{
+width: 600px;
+height: 559px;
+background: #384353;
+text-align: center;
+}
+.background1 h2{
+    margin-top: 210px;
+    color: #FCFDFD;
+    font-size: 36px;
+    margin-bottom: 45px;
+  
+}
+/* .background1 p{
+    color: #DFDEDB;
+    font-family: 'Neue Montreal';
+    font-size: 15px;
+   
+} */
+.p{
+    margin-top: 25px;
+    font-size: 12px;
+
+}
+.img11{
+    position: relative;
+    width: 100%;
+}
+.background2{
+    position: absolute;
+    bottom: 500px;
+
+    left: 19%;  
+    width: 291px;
+height: 365px;
+background: #FFFFFF;
+}
+.background3{
+    position: absolute;
+    right: 200px;
+    bottom: 150px;
+    width: 291px;
+height: 365px;
+background: #FFFFFF;
+}
+.display5{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #323334;
+   
+}
+.img111{
+    margin: 20px 20px;
+}
+.border11{
+    border: 1px solid #DFDEDB;
+   max-width: 1440px;
+    height: 0px;
+    order: 0;
+    margin-top: 450px;
+}
+.border12{
+    border: 1px solid #DFDEDB;
+   max-width: 1440px;
+    height: 0px;
+    order: 0;
+    margin-top: 90px;
+    margin-bottom: 25px;
+
+}
+.border11 p{
+    text-align: center;
+    font-size: 36px;
+    color: #323334;
+    font-family: 'Reckless Neue';
+    margin-top: 24px;
+}
+.border13{
+    border: 1px solid #DFDEDB;
+    max-width: 1440px;
+    height: 0px;
+    order: 0;
+    margin-top: 25px;
+   
+}
+.border14{
+    border: 1px solid #DFDEDB;
+   max-width: 1440px;
+    height: 0px;
+    order: 0;
+    margin-top: 60px;
+    margin-bottom: 25px;
+}
+.border13 p{
+    font-size: 12px;
+    color: #323334;
+    font-family: 'Neue Montreal';
+    text-align: center;
+    margin-top: 24px;
+}
+.background5{
+    width: 720px;
+height: 651px;
+background: #384353;
+}
+.text11{
+    /* text-align: center; */
+    margin-left: 155px;
+    padding-top: 210px;
+    color: #FCFDFD;
+}
+.native{
+    font-family: 'Reckless Neue';
+font-size: 36px;
+color: #FCFDFD;
+margin-bottom: 30px;
+}
+.text11 button{
+    margin-top: 30px;
+    color: #FCFDFD;
+    font-family: 'Neue Montreal';
+font-size: 12px;
+background-color:#384353;
+}
+.n{
+    display: flex;
+}
+.ref{
+  
+}
+.display2-d p{
+    font-size: 12px;
+}
+.display2-d img{
+    width: 100%;
+}
+.svg556{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    }
+    .back{
+        background-image: url(./img/Rectangle\ 546.svg);
+        height: 1000px;
+    }
+    .iron{
+        display: flex;
+    }
+@media (max-width:1440px) {
+    .img3 {
+       
+    }
+    .img1 {
+       
+    }
+   .background2 {
+    position: absolute;
+ 
+    left: 15%;
+    width: 291px;
+    height: 365px;
+    background: #FFFFFF;
+}
+   .img2{
+
+   }
+   .img4{
+    position: absolute;
+
+   }
+  
+    /* .enjoy{
+    margin-right: -29px;
+   } */
+}
+
+@media (max-width:1024px) {
+
+
+.im5 {
+    left: 90%;
+width: 220px;
+}
+.im6 {
+  left: 80%;
+    width: 220px;
+}
+.img4 {
+
+   left: 80%;
+    width: 220px;
+}
+.img3 {
+   
+    width: 220px;
+}
+.img1{
+    left: initial;
+right: 85%;
+        width: 220px;
+    }
+.img2 {
+     
+       
+   
+       
+}
+.display4{
+    margin-right: 500px;
+}
+.herovid {
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    transform: scale(2);
+    z-index: -10;
+    width: 100%;
+    left: 0;
+    max-width: 100%;
+    width: 100%;
+}
+.background3 {
+    position: absolute;
+ 
+
+    width: 291px;
+    height: 365px;
+    background: #FFFFFF;
+}
+/* .background5{
+    width: 800px;
+    height: 477px;
+} */
+.svg556{
+width: 50%;
+height: 100%;
+object-fit: cover;
+}
+/* .text11{
+    padding-top: 100px;
+} */
+}
+@media (max-width:425px) {
+    .background2 {
+        position: absolute;
+        left: 0;
+        width: 291px;
+        height: 365px;
+        background: #FFFFFF;
+        right: 0;
+        margin: auto;
+    }
+    .background3 {
+        position: absolute;
+        width: 291px;
+        height: 365px;
+        background: #FFFFFF;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    /* .display2{
+        display: block;
+        display: flex;
+
+    } */
+   .iron{
+    display: block;
+   }
+   .div2 h2{
+    font-size: 40px;
+   }
+   .div2 p{
+    font-size: 20px;
+   }
+   .div2 button{
+    width: 200px;
+    height: 35px;
+   }
+}
